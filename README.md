@@ -1,26 +1,23 @@
 Sample data and simplified scripts used in 2017 AAAI paper, "Robsut Wrod Reocginiton via semi-Character Recurrent Neural Network"
 
-- Keisuke Sakaguchi
-
 Last updated: Dec 27th , 2016
 
 - - -
 
 This repository contains data and scripts in the following paper:
 
-    @ARTICLE{2016arXiv160802214S,
-       author = {{Sakaguchi}, K. and {Duh}, K. and {Post}, M. and {Van Durme}, B.
-      },
-        title = "{Robsut Wrod Reocginiton via semi-Character Recurrent Neural Network}",
-      journal = {ArXiv e-prints},
-    archivePrefix = "arXiv",
-       eprint = {1608.02214},
-     primaryClass = "cs.CL",
-     keywords = {Computer Science - Computation and Language},
-         year = 2016,
-        month = aug,
-       adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160802214S}
+    @InProceedings{sakaguchi-duh-post-vandurme:2017:AAAI2017,
+      author = {{Sakaguchi}, Keisuke and {Duh}, Kevin and {Post}, Matt and {Van Durme}, Ben},
+      title = "{Robsut Wrod Reocginiton via semi-Character Recurrent Neural Network}",
+      booktitle = {Proceedings of the Thirty-First {AAAI} Conference on Artificial Intelligence, February 4-9, 2017, San Francisco, California, {USA.}},
+      month     = {February},
+      year      = {2017},
+      address   = {San Francisco, California},
+      publisher = {{AAAI} Press},
+      pages     = {x--x},
+      url       = {https://aclweb.org/anthology/D16-1228}
     }
+
 
 ## Data
 
