@@ -15,7 +15,7 @@ This repository contains data and scripts in the following paper:
       address   = {San Francisco, California},
       publisher = {{AAAI} Press},
       pages     = {x--x},
-      url       = {https://aclweb.org/anthology/D16-1228}
+      url       = {https://}
     }
 
 
