@@ -16,18 +16,19 @@ from keras.models import Sequential
 from keras.layers import Activation, Dense, Dropout, LSTM, TimeDistributed
 from keras.optimizers import SGD
 
+### path for data (for example)
 PATH_TRAIN = './data/ptb.train.txt'
 PATH_DEV = './data/ptb.valid.txt'
 PATH_TEST = './data/ptb.test.txt'
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--epoch', '-e', default=10, type=int,
+parser.add_argument('--epoch', '-e', default=30, type=int,
     help='number of epochs to learn')
 parser.add_argument('--unit', '-u', default=650, type=int,
     help='number of units in hidden layers')
 parser.add_argument('--batchsize', '-b', type=int, default=20,
     help='learning minibatch size')
-parser.add_argument('--checkpoint', '-c', type=int, default=2,
+parser.add_argument('--checkpoint', '-c', type=int, default=5,
     help='checkpoint for saving the model (# of epoch)')
 parser.add_argument('--noise', '-n', default="JUMBLE",
     help='noise type (JUMBLE, INSERT, DELETE, REPLACE, RANDOM)')
