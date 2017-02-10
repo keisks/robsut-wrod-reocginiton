@@ -1,4 +1,4 @@
-Sample data and simplified scripts used in 2017 AAAI paper, "Robsut Wrod Reocginiton via semi-Character Recurrent Neural Network"
+Data and re-implemented scripts for 2017 AAAI paper, "Robsut Wrod Reocginiton via semi-Character Recurrent Neural Network"
 
 Last updated: Feb 10th , 2017
 
@@ -36,5 +36,5 @@ This repository contains the re-implementation on the following paper:
 
 ## Questions?
  - Please e-mail to Keisuke Sakaguchi (keisuke[at]cs.jhu.edu).
- - The original code base (written in Chainer) will also be released later on.
+ - The original code base (written in Chainer) will also be released later on. (now refactoring for the latest version of Chainer)
 
