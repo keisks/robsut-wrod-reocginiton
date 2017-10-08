@@ -1,23 +1,25 @@
 Data and re-implemented scripts for 2017 AAAI paper, "Robsut Wrod Reocginiton via semi-Character Recurrent Neural Network"
 
-Last updated: Feb 10th , 2017
+Last updated: Oct 8th , 2017
 
 - - -
 
 This repository contains the re-implementation on the following paper:
 
-    @InProceedings{sakaguchi-duh-post-vandurme:2017:AAAI2017,
-      author = {{Sakaguchi}, Keisuke and {Duh}, Kevin and {Post}, Matt and {Van Durme}, Ben},
-      title = "{Robsut Wrod Reocginiton via semi-Character Recurrent Neural Network}",
-      booktitle = {Proceedings of the Thirty-First {AAAI} Conference on Artificial Intelligence},
-      month     = {February},
+    @inproceedings{DBLP:conf/aaai/SakaguchiDPD17,
+      author    = {Keisuke Sakaguchi and
+                   Kevin Duh and
+                   Matt Post and
+                   Benjamin Van Durme},
+      title     = {Robsut Wrod Reocginiton via Semi-Character Recurrent Neural Network},
+      booktitle = {Proceedings of the Thirty-First {AAAI} Conference on Artificial Intelligence,
+                   February 4-9, 2017, San Francisco, California, {USA.}},
+      pages     = {3281--3287},
       year      = {2017},
-      address   = {San Francisco, California},
+      url       = {http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14332},
       publisher = {{AAAI} Press},
-      pages     = {x--x},
-      url       = {https://}
     }
-
+        
 
 ## Data
 
@@ -30,11 +32,21 @@ This repository contains the re-implementation on the following paper:
 
 ## Basic Usage
 
-    (training) THEANO_FLAGS=device=gpu1,floatX=float32 python train.py
-    (predicting) THEANO_FLAGS=device=gpu1,floatX=float32 python predict.py -m models/train_j-INT_n-JUMBLE_u-650_batch-20_ep-10_model.h5
+    (pre-requisite)
+
+        conda create -n robsut python=2.7
+        pip install keras theano h5py
+        change the keras backend to theano (edit $HOME/.keras/keras.json)
+
+    (training) 
+
+        THEANO_FLAGS=device=gpu0,floatX=float32 python train.py
+
+    (predicting) 
+
+        THEANO_FLAGS=device=gpu0,floatX=float32 python predict.py -m models/train_j-INT_n-JUMBLE_u-650_batch-20_ep-10_model.h5
 
 
 ## Questions?
  - Please e-mail to Keisuke Sakaguchi (keisuke[at]cs.jhu.edu).
- - The original code base (written in Chainer) will also be released later on. (now refactoring for the latest version of Chainer)
 
