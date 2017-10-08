@@ -32,11 +32,13 @@ This repository contains the re-implementation on the following paper:
 
 ## Basic Usage
 
-    (pre-requisite)
+    (prerequisites)
 
-        conda create -n robsut python=2.7
-        pip install keras theano h5py
-        change the keras backend to theano (edit $HOME/.keras/keras.json)
+        # Tested on CentOS7 (with CUDA7.5)
+        > conda create -n robsut python=2.7
+        > pip install keras theano h5py
+        # change the keras backend to theano (edit $HOME/.keras/keras.json)
+        
 
     (training) 
 
