@@ -24,11 +24,12 @@ This repository contains the re-implementation on the following paper:
 ## Data
 
     .
-    ├── README.md  # this file
-    ├── train.py # script for training
-    ├── predict.py # predict correct word
-    ├── models # store model files
-    └── binarize.py # utility function
+    ├── README.md       # this file
+    ├── train.py        # script for training
+    ├── predict.py      # predict correct word
+    ├── models          # store model files
+    ├── binarize.py     # utility function
+    └── jumble_words.py # script for adding jumble noise
 
 ## Basic Usage
 
